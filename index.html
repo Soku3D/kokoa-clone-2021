@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
-    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/style_index.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to KakaoTalk</title>
-
   </head>
   <body>
     <div id="startus-bar">
@@ -23,16 +22,20 @@
         <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <header class="welcome--header">
-      <h1 class="welcome--header__title">Welcome to Kokoa Clone</h1
-        <p class="welcome--header__text">If you have a Kakao Account, log in with your email or phone number</p>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kakao Account, log in with your email or phone number
+      </p>
     </header>
     <form id="login-form">
-        <input type="text" required placeholder="Email or phone number"/>
-        <input type="password" required minlength="10" placeholder="Password"/>
-        <input type="submit" value="Log in"/>
-        <input type="button" value="Sign Up"/>
-        <a href="https://accounts.kakao.com/weblogin/find_account_guide?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo#pageFindAccountSelect">Find Kakao Account or Password</a>
+      <input type="text" required placeholder="Email or phone number" />
+      <input type="password" required minlength="10" placeholder="Password" />
+      <input class="login-button" type="submit" value="Log in" />
+      <input class="login-button" type="button" value="Sign Up" />
+      <a href="https://accounts.kakao.com" target="_blank"
+        >Find Kakao Account or Password</a
+      >
     </form>
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
