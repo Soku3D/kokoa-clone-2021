@@ -5,6 +5,7 @@
   top: 0;
   width: 100%;
   background-color: rgb(255, 252, 252);
+  opacity: 1;
 }
 .status-bar__column {
   width: 33%;

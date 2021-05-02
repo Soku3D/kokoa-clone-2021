@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+  margin-right: -5px;
 }
 
 .screen-header__title {
@@ -18,4 +19,15 @@
 }
 .screen-header__icons:nth-child(2) span {
   margin: 0px 10px;
+  position: relative;
+}
+.screen-header__dat {
+  display: block;
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 23px;
+  left: 13px;
 }
