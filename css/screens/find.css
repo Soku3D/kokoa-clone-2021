@@ -51,3 +51,7 @@
   display: flex;
   justify-content: space-between;
 }
+.open-post__title {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
